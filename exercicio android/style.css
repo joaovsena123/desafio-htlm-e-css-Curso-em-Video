@@ -1,0 +1,150 @@
+@charset "UTF-8";
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(42, 247, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(to bottom,#3cf7b8, rgb(17, 102, 52));
+    margin: 0%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.651);
+     width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.menu {
+   text-align: left;
+}
+.menu a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+main {
+    background-color: white;
+    width: 700px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: auto;
+     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.651);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+iframe {
+    border-color: rgb(0, 58, 0);
+    border-style: solid;
+    border-width: 15px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.651);
+    max-width: 100%;
+    width: 700px;
+}
+footer{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+    overflow: auto;
+     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.651);
+}
+.final {
+    background-color: rgba(89, 252, 176, 0.568);
+    border-radius: 10px;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+#creditos {
+    background-color: rgb(1, 88, 1);
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+      width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    text-align: center;
+    color: white;
+    text-indent: 0;
+    line-height: 14px;
+}
+p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+#aprender {
+    background-color: rgb(2, 107, 2);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    text-align: left;
+    text-indent: 0;
+    line-height: 14px;
+}
+#inicio {
+    text-indent: 0;
+    line-height: 14px;
+    text-align: center;
+}
+#creditos p {
+    background-color: rgb(1, 88, 1);
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    height: 30px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    color: white;
+    text-indent: 0;
+
+    text-align: center;
+}
+h2 {
+    color: rgb(0, 83, 0);
+    font-size: xx-large;
+}
+h3 {
+    color: rgb(0, 83, 0);
+  background-image: linear-gradient(to left,#ecf0ef, rgba(101, 250, 163, 0.418));
+}
+.link {
+    display: inline-flex;
+    align-items:center;
+    gap: 8px;
+    text-decoration: none;
+}
+.link img {
+    width: 15px;
+    height: 15px;
+}
+
+
