@@ -65,6 +65,7 @@ a {
     min-height: 500px;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.363)
 }
 .img2 > #texto3 {
     display: inline-block;
