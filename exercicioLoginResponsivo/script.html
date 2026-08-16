@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <h1>Login</h1>
+        <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <div class="Infos">
+                <p>
+                    <label for="usuario"><img src="imgs/iconUsuario.png" alt="usuario"></label>
+                    <input type="email" name="usuario" id="usuario" autocomplete="email" required placeholder="seu email"> <br>
+                </p>
+                <p>
+                    <label for="senha"><img src="imgs/iconChave.png" alt="chave"></label>'
+                    <input type="password" name="senha" id="senha" maxlength="8" required placeholder="sua senha"> <br>
+                </p>
+                    <p><input type="submit" value="Entrar" id="entrar"></p>
+            </div>
+        </form>
+        <p class="Esqueci"><a href="#">Esqueci a senha</a></p>
+    </main>
+    <div class="imagem"><img src="imgs/predio.png" alt="predio"></div>
+</body>
+</html>
