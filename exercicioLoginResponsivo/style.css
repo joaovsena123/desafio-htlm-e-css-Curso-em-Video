@@ -1,19 +1,27 @@
 @charset "UTF-8";
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     /* Exemplo: degradê vertical de azul para roxo */
-    background: linear-gradient(to bottom, #8f4e8fe3,#58a9bdc9);
+    background: linear-gradient(to bottom, #5f2c82,#49a09d);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main{
-    background-color: white;
-    width: 500px;
-    height: 300px;
+    background-color: #ffffff;
+    width: 450px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
@@ -24,18 +32,40 @@ main > p{
 input{
     border: solid black 2px;
     border-radius: 5px;
-    width: 450px;
+    width: 400px;
     height: 25px;
-    background-color: rgba(85, 231, 163, 0.705);
-    padding: 5px;
+    background-color: #49a09d;
+    padding: 9px;
 }
 input#entrar{
-    background-color: rgb(64, 179, 125);
+    background-color: #49a09d;
     color: white;
-    width: 466px;
+    width: 450px;
     height: 40px;
+}
+input#entrar:hover{
+    background-color: #70f7f2;
 }
 form img{
     height: 20px;
     width: 20px;
+}
+.imagem{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+p#esqueci a{
+    background-color: white;
+    color: #49a09d;
+    padding-left: 150px;
+    padding-right: 162px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+p#esqueci a:hover{
+    background-color: #70f7f2;
 }
