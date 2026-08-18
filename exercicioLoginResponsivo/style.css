@@ -12,8 +12,8 @@ background: #5f2c82;
 }
 main{
     position: relative;
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 100vh;
 }
 div#login{
     position: absolute;
@@ -31,6 +31,7 @@ div#login > div#imagem{
     background-size: cover;
     height: 200px;
     display: block;
+    background-position: center;
 }
 div#login > div#infos{
     padding: 10px;
