@@ -15,15 +15,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
                 <form action="cadastro.php" method="get" autocomplete="on">
-                        <p>
-                            <label for="usuario"><img src="" alt="usuario"></label>
+                        
+                            
+                            <label for="usuario">Usuario:</label>
                             <input type="email" name="usuario" id="usuario" autocomplete="email" required placeholder="seu email"> <br>
-                        </p>
-                        <p>
-                            <label for="senha"><img src="" alt="chave"></label>'
-                            <input type="password" name="senha" id="senha" maxlength="8" required placeholder="sua senha"> <br>
-                        </p>
-                            <p><input type="submit" value="Entrar" id="entrar"></p>
+                        
+                        
+                            <label for="senha">Senha:</label>
+                            <input type="password" name="senha" id="senha" maxlength="8" required placeholder="sua senha" autocomplete="current-password"> <br>
+                        
+                             <input type="submit" value="Entrar" id="entrar">
+                            <a href="#">Esqueci a senha</a>
                         </form>
                     </div>
             </div>

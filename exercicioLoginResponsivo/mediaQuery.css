@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, rgb(50, 163, 163), #5f2c82);
+    }
     div#login{
         width: 85%;
+        height: 290px;
     }
     div#login > div#imagem{
         float: left;
@@ -13,12 +17,19 @@
         float: right;
         width: 70%;
     }
+    div#login p{
+    font-size: medium;
+}
 }
 @media screen and (min-width: 992px) {
+     body{
+        background-image: linear-gradient(to top, rgb(50, 163, 163), #5f2c82);
+    }
     div#login{
         width: 950px;
+        height: 350px;
     }
-    div#imagem{
+   div#login > div#imagem{
         width: 50%;
         height: 100%;
         float: left;
@@ -26,5 +37,9 @@
     div#login > div#infos {
     float: right;
     width: 50%;
+}
+div#login p{
+    font-size:large;
+    margin: 20px 0px;
 }
 }
