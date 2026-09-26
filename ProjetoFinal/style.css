@@ -62,6 +62,9 @@ section#ficha img.foto{
     border-radius: 50%;
     border: 5px solid var(--fundo-card);
     outline: 5px solid var(--destaque);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
 }
 section#ficha h1{
     color: var(--destaque);
@@ -75,10 +78,11 @@ div#social {
     align-items: center;
     font-size: 1.6em;
     gap: 2em;
-    margin-top 15px;
+    margin-top: 15px;
 }
 div#social a{
     color: var(--destaque);
+    transition: 0.5s;
 }
 div#social a:hover {
     color: var(--destaque-inverso);
